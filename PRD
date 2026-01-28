@@ -1,0 +1,162 @@
+Proposal: Shopping Cart Web Application
+
+Introduction
+This proposal outlines the design and development of a Shopping Cart Web Application that enables users to browse products, add items to a cart, manage quantities, and complete secure checkout. The system is designed to be scalable, user-friendly, and suitable for small to medium-sized businesses.
+
+Objectives
+Provide a smooth and intuitive online shopping experience
+
+Enable product browsing, searching, and filtering
+
+Allow users to add, update, and remove items from a shopping cart
+
+Support secure user authentication and checkout
+
+Offer an admin panel for managing products and orders
+
+Scope of the System
+3.1 User Features
+
+User registration and login
+
+Product listing with images, prices, and descriptions
+
+Add to cart, increase/decrease quantity, and remove items
+
+View cart summary and total cost
+
+Checkout and order confirmation
+
+3.2 Admin Features
+
+Admin login
+
+Add, update, and delete products
+
+Manage product categories
+
+View and manage customer orders
+
+System Requirements
+4.1 Functional Requirements
+
+The system shall allow users to create accounts and log in
+
+The system shall allow users to add products to a cart
+
+The system shall calculate totals automatically
+
+The system shall store order details in a database
+
+4.2 Non-Functional Requirements
+
+High performance and fast load times
+
+Secure data handling and authentication
+
+Responsive design for mobile and desktop
+
+Easy maintenance and scalability
+
+Technology Stack
+Frontend: HTML, CSS, JavaScript (Bootstrap / React optional)
+
+Backend: PHP (or Node.js)
+
+Database: MySQL
+
+Server: Apache (XAMPP/LAMP)
+
+System Architecture
+The application will follow a three-tier architecture:
+
+Presentation Layer (UI)
+
+Application Layer (Business Logic)
+
+Data Layer (Database)
+
+Database Design (Summary)
+
+Users Table
+
+Products Table
+
+Cart Table
+
+Orders Table
+
+Order_Details Table
+
+Security Considerations
+Password hashing
+
+Input validation
+
+Session management
+
+Protection against SQL injection and XSS
+
+Development Timeline
+Phase Duration
+
+Requirements Analysis 1 week System Design 1 week Development 3 weeks Testing 1 week Deployment 1 week
+
+Expected Deliverables
+Fully functional shopping cart web application
+
+Source code and database scripts
+
+System documentation
+
+User and admin manuals
+
+Testing and Quality Assurance
+Unit testing for core functions (cart, login, checkout)
+
+Integration testing between frontend, backend, and database
+
+User acceptance testing (UAT)
+
+Cross-browser and mobile responsiveness testing
+
+Assumptions and Constraints
+Assumptions:
+
+Users have internet access and modern browsers
+
+Admins are trained to manage products and orders
+
+Constraints:
+
+Limited development time
+
+Budget constraints for hosting and payment gateways
+
+Risks and Mitigation
+Security risks: mitigated by hashing, validation, and secure sessions
+
+Data loss: mitigated by regular database backups
+
+Performance issues: mitigated by optimized queries and caching
+
+Maintenance and Future Enhancements
+Regular updates and bug fixes
+
+Adding payment gateway integration (M-Pesa, PayPal)
+
+Order tracking and email notifications
+
+Analytics and reporting dashboard
+
+Acceptance Criteria
+Users can register, log in, and log out successfully
+
+Products can be added, updated, and removed from cart
+
+Orders are stored correctly in the database
+
+Admin can manage products and view orders
+
+Conclusion
+The proposed Shopping Cart Web Application will provide a reliable, secure, and efficient platform for online shopping. It will help businesses expand their digital presence while offering customers a convenient shopping experience.
