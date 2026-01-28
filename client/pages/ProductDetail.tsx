@@ -1,6 +1,6 @@
-import { useNavigate } from 'react-router-dom';
-import Header from '@/components/Header';
-import { ArrowLeft } from 'lucide-react';
+import { useNavigate } from "react-router-dom";
+import Header from "@/components/Header";
+import { ArrowLeft } from "lucide-react";
 
 export default function ProductDetail() {
   const navigate = useNavigate();
@@ -19,12 +19,15 @@ export default function ProductDetail() {
         </button>
 
         <div className="text-center py-16">
-          <h1 className="text-3xl font-bold text-foreground mb-4">Product Details</h1>
+          <h1 className="text-3xl font-bold text-foreground mb-4">
+            Product Details
+          </h1>
           <p className="text-muted-foreground mb-8">
-            This page will display detailed information about individual products.
+            This page will display detailed information about individual
+            products.
           </p>
           <button
-            onClick={() => navigate('/')}
+            onClick={() => navigate("/")}
             className="px-8 py-3 bg-primary text-white rounded-lg font-semibold hover:bg-opacity-90"
           >
             Back to Shop

@@ -1,5 +1,5 @@
-import { useNavigate } from 'react-router-dom';
-import Header from '@/components/Header';
+import { useNavigate } from "react-router-dom";
+import Header from "@/components/Header";
 
 export default function Login() {
   const navigate = useNavigate();
@@ -16,7 +16,7 @@ export default function Login() {
           </p>
 
           <button
-            onClick={() => navigate('/')}
+            onClick={() => navigate("/")}
             className="w-full px-8 py-3 bg-primary text-white rounded-lg font-semibold hover:bg-opacity-90 transition-all"
           >
             Back to Shop
